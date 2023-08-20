@@ -21,7 +21,7 @@ app.use(express.json({ extended: false }));
 app.get('/', (req, res) => res.send('Hello world!'));
 
 // use Routes
-app.use('/', books);
+app.use('/api/books', books);
 
 const port = process.env.PORT || 8082;
 
