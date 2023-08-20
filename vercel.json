@@ -6,7 +6,7 @@
   
       {
   
-        "src": "app.js",
+        "src": "index.js",
   
         "use": "@vercel/node"
   
@@ -20,7 +20,7 @@
   
         "src": "/(.*)",
   
-        "dest": "app.js"
+        "dest": "index.js"
   
       }
   
